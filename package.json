@@ -1,11 +1,22 @@
 {
   "name": "node_api",
   "version": "0.0.1",
-  "description": "A simple API written in NodeJS",
-  "main": "index.js",
+  "description": "A simple NodeJS API",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.13.3"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FroopleXP/node_api.git"
+  },
   "author": "Connor Edwards",
-  "license": "GNU"
+  "license": "GNU",
+  "bugs": {
+    "url": "https://github.com/FroopleXP/node_api/issues"
+  }
 }
